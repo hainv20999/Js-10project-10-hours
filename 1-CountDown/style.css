@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1469122312224-c5846569feb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1152&q=80');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 4rem;
+  margin-top: -10rem;
+}
+
+.countdown-container {
+  display: flex;
+}
+.big-text {
+  font-size: 6rem;
+  margin: 4rem;
+  line-height: 1;
+}
+.countdown-el {
+  text-align: center;
+  font-size: 1rem;
+}
